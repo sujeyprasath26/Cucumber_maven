@@ -1,0 +1,225 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Test login with valid credentials",
+        "description": "",
+        "id": "test-process-automation-smoke-scenario;test-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3975392300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Chrome and start application",
+            "match": {
+              "location": "SmokeTest.Open_Firefox_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145332500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid \"sakthi.b@tauedu.org\" and valid \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sakthi.b@tauedu.org",
+                  "offset": 15
+                },
+                {
+                  "val": "password",
+                  "offset": 47
+                }
+              ],
+              "location": "SmokeTest.I_enter_valid_username_and_valid_password(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1048241000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "SmokeTest.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 657927600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "application should be closed",
+            "match": {
+              "location": "SmokeTest.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Test login with valid credentials",
+        "description": "",
+        "id": "test-process-automation-smoke-scenario;test-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2781902700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Chrome and start application",
+            "match": {
+              "location": "SmokeTest.Open_Firefox_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149021200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid \"sakthi.b1@tauedu.org\" and valid \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sakthi.b1@tauedu.org",
+                  "offset": 15
+                },
+                {
+                  "val": "password",
+                  "offset": 48
+                }
+              ],
+              "location": "SmokeTest.I_enter_valid_username_and_valid_password(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1065351600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "SmokeTest.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1112902900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "application should be closed",
+            "match": {
+              "location": "SmokeTest.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Test login with valid credentials",
+        "description": "",
+        "id": "test-process-automation-smoke-scenario;test-login-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2756365900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Chrome and start application",
+            "match": {
+              "location": "SmokeTest.Open_Firefox_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 134956200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid \"sakthi.b2@tauedu.org\" and valid \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sakthi.b2@tauedu.org",
+                  "offset": 15
+                },
+                {
+                  "val": "password",
+                  "offset": 48
+                }
+              ],
+              "location": "SmokeTest.I_enter_valid_username_and_valid_password(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 954095800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "SmokeTest.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 593944100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "application should be closed",
+            "match": {
+              "location": "SmokeTest.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Process Automation smoke scenario",
+    "description": "",
+    "id": "test-process-automation-smoke-scenario",
+    "keyword": "Feature",
+    "uri": "MyApplication.feature"
+  }
+]

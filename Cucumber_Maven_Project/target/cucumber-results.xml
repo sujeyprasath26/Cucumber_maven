@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="15.375433">
+<testcase classname="Test Process Automation smoke scenario" name="Test login with valid credentials" time="5.826893">
+<system-out><![CDATA[Given Open Chrome and start application.....................................passed
+When I enter valid "sakthi.b@tauedu.org" and valid "password"...............passed
+Then user should be able to login successfully..............................passed
+Then application should be closed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Process Automation smoke scenario" name="Test login with valid credentials 2" time="5.109178">
+<system-out><![CDATA[Given Open Chrome and start application.....................................passed
+When I enter valid "sakthi.b1@tauedu.org" and valid "password"..............passed
+Then user should be able to login successfully..............................passed
+Then application should be closed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Process Automation smoke scenario" name="Test login with valid credentials 3" time="4.439362">
+<system-out><![CDATA[Given Open Chrome and start application.....................................passed
+When I enter valid "sakthi.b2@tauedu.org" and valid "password"..............passed
+Then user should be able to login successfully..............................passed
+Then application should be closed...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

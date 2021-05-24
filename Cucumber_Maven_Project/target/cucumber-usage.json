@@ -1,0 +1,124 @@
+[
+  {
+    "source": "^application should be closed$",
+    "steps": [
+      {
+        "name": "application should be closed",
+        "aggregatedDurations": {
+          "average": 0.7882582,
+          "median": 0.6579276
+        },
+        "durations": [
+          {
+            "duration": 0.6579276,
+            "location": "MyApplication.feature:7"
+          },
+          {
+            "duration": 1.1129029,
+            "location": "MyApplication.feature:7"
+          },
+          {
+            "duration": 0.5939441,
+            "location": "MyApplication.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter valid \"([^\"]*)\" and valid \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter valid \"sakthi.b@tauedu.org\" and valid \"password\"",
+        "aggregatedDurations": {
+          "average": 0.1453325,
+          "median": 0.1453325
+        },
+        "durations": [
+          {
+            "duration": 0.1453325,
+            "location": "MyApplication.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I enter valid \"sakthi.b1@tauedu.org\" and valid \"password\"",
+        "aggregatedDurations": {
+          "average": 0.1490212,
+          "median": 0.1490212
+        },
+        "durations": [
+          {
+            "duration": 0.1490212,
+            "location": "MyApplication.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I enter valid \"sakthi.b2@tauedu.org\" and valid \"password\"",
+        "aggregatedDurations": {
+          "average": 0.1349562,
+          "median": 0.1349562
+        },
+        "durations": [
+          {
+            "duration": 0.1349562,
+            "location": "MyApplication.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should be able to login successfully$",
+    "steps": [
+      {
+        "name": "user should be able to login successfully",
+        "aggregatedDurations": {
+          "average": 1.0225628,
+          "median": 1.048241
+        },
+        "durations": [
+          {
+            "duration": 1.048241,
+            "location": "MyApplication.feature:6"
+          },
+          {
+            "duration": 1.0653516,
+            "location": "MyApplication.feature:6"
+          },
+          {
+            "duration": 0.9540958,
+            "location": "MyApplication.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Open Chrome and start application$",
+    "steps": [
+      {
+        "name": "Open Chrome and start application",
+        "aggregatedDurations": {
+          "average": 3.1712203,
+          "median": 2.7819027
+        },
+        "durations": [
+          {
+            "duration": 3.9753923,
+            "location": "MyApplication.feature:4"
+          },
+          {
+            "duration": 2.7819027,
+            "location": "MyApplication.feature:4"
+          },
+          {
+            "duration": 2.7563659,
+            "location": "MyApplication.feature:4"
+          }
+        ]
+      }
+    ]
+  }
+]

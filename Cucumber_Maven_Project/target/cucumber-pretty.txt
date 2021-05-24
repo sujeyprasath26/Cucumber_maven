@@ -1,0 +1,27 @@
+Feature: Test Process Automation smoke scenario
+
+  Scenario Outline: Test login with valid credentials    [90m# MyApplication.feature:3[0m
+    [36mGiven [0m[36mOpen Chrome and start application[0m
+    [36mWhen [0m[36mI enter valid "<username>" and valid "password"[0m
+    [36mThen [0m[36muser should be able to login successfully[0m
+    [36mThen [0m[36mapplication should be closed[0m
+
+    Examples: 
+
+  Scenario Outline: Test login with valid credentials             [90m# MyApplication.feature:11[0m
+    [32mGiven [0m[32mOpen Chrome and start application[0m                       [90m# SmokeTest.Open_Firefox_and_start_application()[0m
+    [32mWhen [0m[32mI enter valid "[0m[32m[1msakthi.b@tauedu.org[0m[32m" and valid "[0m[32m[1mpassword[0m[32m"[0m [90m# SmokeTest.I_enter_valid_username_and_valid_password(String,String)[0m
+    [32mThen [0m[32muser should be able to login successfully[0m                [90m# SmokeTest.user_should_be_able_to_login_successfully()[0m
+    [32mThen [0m[32mapplication should be closed[0m                             [90m# SmokeTest.application_should_be_closed()[0m
+
+  Scenario Outline: Test login with valid credentials              [90m# MyApplication.feature:12[0m
+    [32mGiven [0m[32mOpen Chrome and start application[0m                        [90m# SmokeTest.Open_Firefox_and_start_application()[0m
+    [32mWhen [0m[32mI enter valid "[0m[32m[1msakthi.b1@tauedu.org[0m[32m" and valid "[0m[32m[1mpassword[0m[32m"[0m [90m# SmokeTest.I_enter_valid_username_and_valid_password(String,String)[0m
+    [32mThen [0m[32muser should be able to login successfully[0m                 [90m# SmokeTest.user_should_be_able_to_login_successfully()[0m
+    [32mThen [0m[32mapplication should be closed[0m                              [90m# SmokeTest.application_should_be_closed()[0m
+
+  Scenario Outline: Test login with valid credentials              [90m# MyApplication.feature:13[0m
+    [32mGiven [0m[32mOpen Chrome and start application[0m                        [90m# SmokeTest.Open_Firefox_and_start_application()[0m
+    [32mWhen [0m[32mI enter valid "[0m[32m[1msakthi.b2@tauedu.org[0m[32m" and valid "[0m[32m[1mpassword[0m[32m"[0m [90m# SmokeTest.I_enter_valid_username_and_valid_password(String,String)[0m
+    [32mThen [0m[32muser should be able to login successfully[0m                 [90m# SmokeTest.user_should_be_able_to_login_successfully()[0m
+    [32mThen [0m[32mapplication should be closed[0m                              [90m# SmokeTest.application_should_be_closed()[0m
